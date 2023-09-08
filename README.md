@@ -22,10 +22,11 @@
 * Aquire data from MySQL
  
 * Prepare data
-   * drop any rows with nulls
+  * Using my function from prepare, I renamed the columns and droped null values. Additionally I changed datatypes for appropriate columns and renamed fips to actual county names and encoded county.
  
 * Explore data in order to find the drivers of the property tax assessed values of single family properties that had a transaction during 2017
    * Answer the following initial questions
+       * What are the biggest drivers of higher tax value? 
        * Why do some properties have a much higher value than others when they are located so close to each other?
        * Why are some properties valued so differently from others when they have nearly the same physical attributes but only differ in location?
        * Is having 1 bathroom worse for property value than having 2 bedrooms?
@@ -42,5 +43,4 @@
 
 
 # Key findings, recommendations, and takeaways from my project:
-## My main takeaway 
-## I would recommend 
+## My main takeaway: I recommend that we predict the value of single family properties that cost less than $750k with our polynomial regression model using area, number of bathrooms, and county.  
