@@ -10,13 +10,13 @@
 # Data Dictionary:
 |Feature|Dtype, Description|
 |:--------|:-----------|
-|bedrooms|	int64, number of bedrooms in the house|
-|bathrooms|	float64, number of bedrooms in the house|
-|area|	int64, area of house in square feet|
-|taxvalue|	int64, property tax assessed values of single family properties that had a transaction during 2017|
-|yearbuilt|	int64, year the house was built|
-|taxamount|	float64, tax amount on house|
-|county|	object, county (LA, Orange, Ventura)|
+|bedrooms|	int64, Number of bedrooms in the house|
+|bathrooms|	float64, Number of bathrooms in the house|
+|area|	int64, Area of house in square feet|
+|taxvalue|	int64, Property tax assessed values of single family properties that had a transaction during 2017|
+|yearbuilt|	int64, Year the house was built|
+|taxamount|	float64, Tax amount on house|
+|county|	object, County (LA, Orange, Ventura)|
 
 # Project planning:
 * Aquire data from MySQL
